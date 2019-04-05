@@ -1,5 +1,5 @@
 # MedicalExpert
-Expert System for Medical Diagnosis
+### Expert System for Medical Diagnosis
 
 MedicalExpert is an Expert Desktop desktop application that has the primary purpose of enabling auto diagnosis for users regardless of their medical knowledge. 
 
@@ -9,5 +9,5 @@ The diagnostic module is based on the knowledge base built in CLIPS. The knowled
 
 Once the diagnosis has been identified, get in scene "Personal Assistant" function. It introduces the diagnosis found in the database and also it also creates a user's history from the point of view of its affections. Another functionality is searching and displaying the user of the recommendations available for the affection found. Also, 3 days after the last test, a notification is generated that brings the patient to the fact that he should resume testing in order to verify the improvement of his situation. 
 
-Mechanism of operation:
+## Mechanism of operation
 An id is set for each question. Initially, id has a value of 1, so the first selected question is the one with id 1. As the user responds, the id value changes according to its responses and the query is selected based on the id value. Based on responses, symptoms are introduced in the knowledge base. Symptoms are also assigned values ​​that represent the importance of a particular diagnosis. Based on knowledge, rules are defined to identify a diagnosis and when found, the percentage is calculated and displayed. If the percentage is not more than 30%, the process continues. The query process stops. Enter the results in the database and extract the recommendations. Information about his condition is brought to the attention of the user.
